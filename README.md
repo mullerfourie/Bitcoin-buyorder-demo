@@ -7,19 +7,21 @@ Thoughts:
 
 ### Prerequisites
 * A instance of mongoDB should be running local
-(MacOS using homebrew)
+Example: (MacOS using homebrew)
 ```
 brew services start mongodb
 ```
 This should start the mongodb on local at port 27017 but if this is not the case set your mongodb in the server/server.js file `MONGO_URL = 'mongodb://localhost:27017';` (or move to a environmental variable)
 
-* the demo application will add entries to a testDatabase in your local mongodb instance
+* The demo application will add entries to a testDatabase in your local mongodb instance
 
 * The Spot buy order amount is received on API request form [https://www.coinbase.com/] and is updated every 20 seconds
 
 ## Getting started
 ```npm install``` to load the node_modules
 ```npm run start_dev_watch``` should get you going in dev mode
+Go to `localhost:3000` on your browser to run
+
 
 ## Build With
 
@@ -28,6 +30,7 @@ This should start the mongodb on local at port 27017 but if this is not the case
 * Babel
 * ReactJS
 * Axios
+* MongoDB
 
 ## Contributing
 
