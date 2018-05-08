@@ -26,6 +26,7 @@ This should start the mongodb on local at port 27017 but if this is not the case
 
 If you have trouble building the `start_dev_watch` which will be the case in Windows use the following
 ### Windows
+* ```npm install``` to load the node_modules
 * ```npm run build_client``` this builds the client-side using Webpack bundler
 * ```npm run build_server``` this builds the server-code with Babel
 * ```node ./build/server/server.js``` will fire up the app
