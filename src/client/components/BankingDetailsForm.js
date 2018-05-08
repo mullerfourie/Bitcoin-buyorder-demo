@@ -27,7 +27,7 @@ class BankingDetailsForm extends React.Component {
     const { name, number, expiry, cvc, focused, cardIssuer } = this.state;
     return (
       <div style={flexCenter}>
-      <Panel style={{ width: `${window.innerWidth * 0.7}px` }} bsStyle="primary">
+      <Panel style={{ width: `${window.innerWidth * 0.9}px` }} bsStyle="primary">
         <Panel.Heading>Banking Details</Panel.Heading>
         <Panel.Body>
           <Grid>

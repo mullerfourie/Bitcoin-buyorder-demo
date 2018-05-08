@@ -10,7 +10,7 @@ const OrdersPage = () => (
   <div>
     <TopBar />
     <div style={flexCenter}>
-      <Panel style={{ width: `${window.innerWidth * 0.7}px` }} bsStyle="primary">
+      <Panel style={{ width: `${window.innerWidth * 0.9}px` }} bsStyle="primary">
         <Panel.Heading>Orders</Panel.Heading>
         <Panel.Body>
           <OrdersTable />

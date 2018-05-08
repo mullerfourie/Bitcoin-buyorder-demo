@@ -7,7 +7,7 @@ class UserDetailsForm extends React.Component {
   render() {
     return (
       <div style={flexCenter}>
-      <Panel style={{ width: `${window.innerWidth * 0.7}px` }} bsStyle="primary">
+      <Panel style={{ width: `${window.innerWidth * 0.9}px` }} bsStyle="primary">
         <Panel.Heading>User Details</Panel.Heading>
         <Panel.Body>
           <Grid>

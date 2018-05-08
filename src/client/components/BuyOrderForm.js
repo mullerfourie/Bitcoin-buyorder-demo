@@ -44,7 +44,7 @@ class BuyOrderForm extends React.Component {
     const { bitcoinAmount, usdAmount, spotPrice } = this.state; 
     return (
       <div style={flexCenter}>
-      <Panel style={{ width: `${window.innerWidth * 0.7}px` }} bsStyle="primary">
+      <Panel style={{ width: `${window.innerWidth * 0.9}px` }} bsStyle="primary">
         <Panel.Heading>Buy Order</Panel.Heading>
         <Panel.Body>
           <Grid>
