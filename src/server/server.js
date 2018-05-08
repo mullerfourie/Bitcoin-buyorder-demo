@@ -34,7 +34,7 @@ app.post('/buy-order', (req, res) => { // adds a new buy order TODO: needs secur
       if (err) {
         res.sendStatus(500); // internal server error
       }
-      res.sendStatus(200); // ok
+      res.redirect('/');
     });
   });
 });

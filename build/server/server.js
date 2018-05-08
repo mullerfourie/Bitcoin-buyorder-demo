@@ -54,7 +54,7 @@ app.post('/buy-order', function (req, res) {
       if (err) {
         res.sendStatus(500); // internal server error
       }
-      res.sendStatus(200); // ok
+      res.redirect('/');
     });
   });
 });
